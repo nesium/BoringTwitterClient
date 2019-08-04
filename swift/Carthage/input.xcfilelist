@@ -1,0 +1,10 @@
+$(SRCROOT)/Carthage/Build/iOS/Bindings.framework
+$(SRCROOT)/Carthage/Build/iOS/Flex.framework
+$(SRCROOT)/Carthage/Build/iOS/IGListKit.framework
+$(SRCROOT)/Carthage/Build/iOS/Lists.framework
+$(SRCROOT)/Carthage/Build/iOS/NSMFoundation.framework
+$(SRCROOT)/Carthage/Build/iOS/NSMUIKit.framework
+$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework
+$(SRCROOT)/Carthage/Build/iOS/SwiftProtobuf.framework
+$(SRCROOT)/Carthage/Build/iOS/SwipeCellKit.framework
+$(SRCROOT)/Carthage/Build/iOS/Uniflow.framework

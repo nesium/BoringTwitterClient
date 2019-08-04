@@ -1,0 +1,22 @@
+[package]
+name = "boring_store"
+version = "0.1.0"
+authors = ["mb <mb@nesium.com>"]
+edition = "2018"
+
+[dependencies]
+prost = "0.5"
+prost-types = "0.5"
+bytes = "0.4"
+typename = "0.1"
+ffi-support = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+url = "1.7"
+serde_json = "1.0"
+viaduct = { path = "../viaduct", features = ["reqwest"] }
+rusqlite = "0.19"
+failure = "0.1.5"
+failure_derive = "0.1.5"
+
+[build-dependencies]
+prost-build = "0.5"

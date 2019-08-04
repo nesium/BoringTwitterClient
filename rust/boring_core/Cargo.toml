@@ -1,0 +1,17 @@
+[package]
+name = "boring_core"
+version = "0.1.0"
+authors = ["mb <mb@nesium.com>"]
+edition = "2018"
+
+[dependencies]
+boring_store = { path = "../boring_store" }
+prost = "0.5"
+libc = "0.2"
+ffi-support = "0.3"
+lazy_static = "1.3"
+log = "0.4"
+
+[lib]
+name = "boring_core"
+crate-type = ["staticlib", "cdylib"]
