@@ -1,3 +1,5 @@
+<a href="https://semaphoreci.com"><img src="https://img.shields.io/badge/Builds%20on-Semaphore%20CI-lightgrey"/></a>
+
 # Boring "Twitter" Client
 
 ### What is it?
