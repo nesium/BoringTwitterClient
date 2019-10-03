@@ -18,8 +18,6 @@ blocks:
         commands:
           # Checkout project
           - checkout
-          # Install Carthage
-          - brew install carthage
           # Install rustup
           - export RUSTUP_HOME=$(pwd)/rust_toolchain/rustup
           - export CARGO_HOME=$(pwd)/rust_toolchain/cargo
@@ -39,10 +37,6 @@ blocks:
           - cache restore gems
           - bundle install --path vendor/bundle
           - cache store gems vendor/bundle
-          # Install iOS dependencies
-          - cache restore ios-deps-$SEMAPHORE_GIT_BRANCH-$(checksum Cartfile.resolved),ios-deps-$SEMAPHORE_GIT_BRANCH,ios-deps-master
-          - carthage bootstrap --platform ios
-          - cache store ios-deps-$SEMAPHORE_GIT_BRANCH-$(checksum Cartfile.resolved) Carthage/Build
           - cd ..
 
       jobs:
