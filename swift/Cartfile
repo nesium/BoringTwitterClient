@@ -1,4 +1,0 @@
-github "apple/swift-protobuf" ~> 1.5
-github "nesium/Lists" "master"
-github "nesium/Bindings" "master"
-github "nesium/Uniflow" "master"

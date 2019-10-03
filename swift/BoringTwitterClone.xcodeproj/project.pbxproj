@@ -3,20 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C4F1C3E22F6DF5C00160E25 /* Bindings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA647322F6DF3D009668A3 /* Bindings.framework */; };
-		2C4F1C3F22F6DF5C00160E25 /* Flex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA646D22F6DF3C009668A3 /* Flex.framework */; };
-		2C4F1C4022F6DF5C00160E25 /* IGListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA647922F6DF3D009668A3 /* IGListKit.framework */; };
-		2C4F1C4122F6DF5C00160E25 /* Lists.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA646F22F6DF3C009668A3 /* Lists.framework */; };
-		2C4F1C4222F6DF5C00160E25 /* NSMFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA646E22F6DF3C009668A3 /* NSMFoundation.framework */; };
-		2C4F1C4322F6DF5C00160E25 /* NSMUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA647722F6DF3D009668A3 /* NSMUIKit.framework */; };
-		2C4F1C4722F6DF5C00160E25 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA647122F6DF3C009668A3 /* RxSwift.framework */; };
-		2C4F1C4922F6DF5C00160E25 /* SwiftProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA647522F6DF3D009668A3 /* SwiftProtobuf.framework */; };
-		2C4F1C4A22F6DF5C00160E25 /* SwipeCellKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA647822F6DF3D009668A3 /* SwipeCellKit.framework */; };
-		2C4F1C4B22F6DF5C00160E25 /* Uniflow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA647622F6DF3D009668A3 /* Uniflow.framework */; };
 		2C78151422F403C2002D4134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78151322F403C2002D4134 /* AppDelegate.swift */; };
 		2C78151622F403C2002D4134 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78151522F403C2002D4134 /* PostsViewController.swift */; };
 		2C78151B22F403C3002D4134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C78151A22F403C3002D4134 /* Assets.xcassets */; };
@@ -46,6 +36,10 @@
 		2CCA646022F69BD5009668A3 /* CircleActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA645F22F69BD5009668A3 /* CircleActivityIndicator.swift */; };
 		2CCA646222F6A756009668A3 /* SectionData+Boring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA646122F6A756009668A3 /* SectionData+Boring.swift */; };
 		2CCA646522F6A8E3009668A3 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA646422F6A8E3009668A3 /* LoadingCell.swift */; };
+		2CDE3C212345FCEA003A5266 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 2CDE3C202345FCEA003A5266 /* SwiftProtobuf */; };
+		2CDE3C242345FD79003A5266 /* Bindings in Frameworks */ = {isa = PBXBuildFile; productRef = 2CDE3C232345FD79003A5266 /* Bindings */; };
+		2CDE3C272345FDA2003A5266 /* Uniflow in Frameworks */ = {isa = PBXBuildFile; productRef = 2CDE3C262345FDA2003A5266 /* Uniflow */; };
+		2CDE3C31234604FA003A5266 /* Lists in Frameworks */ = {isa = PBXBuildFile; productRef = 2CDE3C30234604FA003A5266 /* Lists */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,16 +87,6 @@
 		2CCA645F22F69BD5009668A3 /* CircleActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleActivityIndicator.swift; sourceTree = "<group>"; };
 		2CCA646122F6A756009668A3 /* SectionData+Boring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SectionData+Boring.swift"; sourceTree = "<group>"; };
 		2CCA646422F6A8E3009668A3 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
-		2CCA646D22F6DF3C009668A3 /* Flex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flex.framework; path = Carthage/Build/iOS/Flex.framework; sourceTree = "<group>"; };
-		2CCA646E22F6DF3C009668A3 /* NSMFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSMFoundation.framework; path = Carthage/Build/iOS/NSMFoundation.framework; sourceTree = "<group>"; };
-		2CCA646F22F6DF3C009668A3 /* Lists.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lists.framework; path = Carthage/Build/iOS/Lists.framework; sourceTree = "<group>"; };
-		2CCA647122F6DF3C009668A3 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		2CCA647322F6DF3D009668A3 /* Bindings.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bindings.framework; path = Carthage/Build/iOS/Bindings.framework; sourceTree = "<group>"; };
-		2CCA647522F6DF3D009668A3 /* SwiftProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftProtobuf.framework; path = Carthage/Build/iOS/SwiftProtobuf.framework; sourceTree = "<group>"; };
-		2CCA647622F6DF3D009668A3 /* Uniflow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Uniflow.framework; path = Carthage/Build/iOS/Uniflow.framework; sourceTree = "<group>"; };
-		2CCA647722F6DF3D009668A3 /* NSMUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSMUIKit.framework; path = Carthage/Build/iOS/NSMUIKit.framework; sourceTree = "<group>"; };
-		2CCA647822F6DF3D009668A3 /* SwipeCellKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwipeCellKit.framework; path = Carthage/Build/iOS/SwipeCellKit.framework; sourceTree = "<group>"; };
-		2CCA647922F6DF3D009668A3 /* IGListKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListKit.framework; path = Carthage/Build/iOS/IGListKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,18 +94,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDE3C31234604FA003A5266 /* Lists in Frameworks */,
 				2CCA640322F4A707009668A3 /* libsqlite3.tbd in Frameworks */,
+				2CDE3C272345FDA2003A5266 /* Uniflow in Frameworks */,
 				2CCA63FF22F4A118009668A3 /* libboring_core.a in Frameworks */,
-				2C4F1C3E22F6DF5C00160E25 /* Bindings.framework in Frameworks */,
-				2C4F1C3F22F6DF5C00160E25 /* Flex.framework in Frameworks */,
-				2C4F1C4022F6DF5C00160E25 /* IGListKit.framework in Frameworks */,
-				2C4F1C4122F6DF5C00160E25 /* Lists.framework in Frameworks */,
-				2C4F1C4222F6DF5C00160E25 /* NSMFoundation.framework in Frameworks */,
-				2C4F1C4322F6DF5C00160E25 /* NSMUIKit.framework in Frameworks */,
-				2C4F1C4722F6DF5C00160E25 /* RxSwift.framework in Frameworks */,
-				2C4F1C4922F6DF5C00160E25 /* SwiftProtobuf.framework in Frameworks */,
-				2C4F1C4A22F6DF5C00160E25 /* SwipeCellKit.framework in Frameworks */,
-				2C4F1C4B22F6DF5C00160E25 /* Uniflow.framework in Frameworks */,
+				2CDE3C242345FD79003A5266 /* Bindings in Frameworks */,
+				2CDE3C212345FCEA003A5266 /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,16 +259,6 @@
 		4EE707F08CF1A5A5C96B9847 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2CCA647322F6DF3D009668A3 /* Bindings.framework */,
-				2CCA646D22F6DF3C009668A3 /* Flex.framework */,
-				2CCA647922F6DF3D009668A3 /* IGListKit.framework */,
-				2CCA646F22F6DF3C009668A3 /* Lists.framework */,
-				2CCA646E22F6DF3C009668A3 /* NSMFoundation.framework */,
-				2CCA647722F6DF3D009668A3 /* NSMUIKit.framework */,
-				2CCA647122F6DF3C009668A3 /* RxSwift.framework */,
-				2CCA647522F6DF3D009668A3 /* SwiftProtobuf.framework */,
-				2CCA647822F6DF3D009668A3 /* SwipeCellKit.framework */,
-				2CCA647622F6DF3D009668A3 /* Uniflow.framework */,
 				2CCA640222F4A707009668A3 /* libsqlite3.tbd */,
 				2CCA63FE22F4A118009668A3 /* libboring_core.a */,
 			);
@@ -307,13 +275,18 @@
 				2C78150C22F403C2002D4134 /* Sources */,
 				2C78150D22F403C2002D4134 /* Frameworks */,
 				2C78150E22F403C2002D4134 /* Resources */,
-				2CCA642922F5627E009668A3 /* Carthage */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BoringTwitterClone;
+			packageProductDependencies = (
+				2CDE3C202345FCEA003A5266 /* SwiftProtobuf */,
+				2CDE3C232345FD79003A5266 /* Bindings */,
+				2CDE3C262345FDA2003A5266 /* Uniflow */,
+				2CDE3C30234604FA003A5266 /* Lists */,
+			);
 			productName = BoringTwitterClone;
 			productReference = 2C78151022F403C2002D4134 /* BoringTwitterClone.app */;
 			productType = "com.apple.product-type.application";
@@ -365,6 +338,12 @@
 				Base,
 			);
 			mainGroup = 2C78150722F403C2002D4134;
+			packageReferences = (
+				2CDE3C1F2345FCEA003A5266 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				2CDE3C222345FD79003A5266 /* XCRemoteSwiftPackageReference "Bindings" */,
+				2CDE3C252345FDA2003A5266 /* XCRemoteSwiftPackageReference "Uniflow" */,
+				2CDE3C2F234604FA003A5266 /* XCRemoteSwiftPackageReference "Lists" */,
+			);
 			productRefGroup = 2C78151122F403C2002D4134 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -395,26 +374,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2CCA642922F5627E009668A3 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"$(SRCROOT)/Carthage/input.xcfilelist",
-			);
-			inputPaths = (
-			);
-			name = Carthage;
-			outputFileListPaths = (
-				"$(SRCROOT)/Carthage/output.xcfilelist",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
 		A8BF6A13CB552B5E5EF79F78 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,16 +582,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EMF866L2YQ;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BoringTwitterClone/rust/include",
 				);
 				INFOPLIST_FILE = BoringTwitterClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -655,16 +610,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EMF866L2YQ;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BoringTwitterClone/rust/include",
 				);
 				INFOPLIST_FILE = BoringTwitterClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -754,6 +705,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2CDE3C1F2345FCEA003A5266 /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.0;
+			};
+		};
+		2CDE3C222345FD79003A5266 /* XCRemoteSwiftPackageReference "Bindings" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nesium/Bindings.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		2CDE3C252345FDA2003A5266 /* XCRemoteSwiftPackageReference "Uniflow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nesium/Uniflow.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		2CDE3C2F234604FA003A5266 /* XCRemoteSwiftPackageReference "Lists" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nesium/Lists.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2CDE3C202345FCEA003A5266 /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CDE3C1F2345FCEA003A5266 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		2CDE3C232345FD79003A5266 /* Bindings */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CDE3C222345FD79003A5266 /* XCRemoteSwiftPackageReference "Bindings" */;
+			productName = Bindings;
+		};
+		2CDE3C262345FDA2003A5266 /* Uniflow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CDE3C252345FDA2003A5266 /* XCRemoteSwiftPackageReference "Uniflow" */;
+			productName = Uniflow;
+		};
+		2CDE3C30234604FA003A5266 /* Lists */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CDE3C2F234604FA003A5266 /* XCRemoteSwiftPackageReference "Lists" */;
+			productName = Lists;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C78150822F403C2002D4134 /* Project object */;
 }

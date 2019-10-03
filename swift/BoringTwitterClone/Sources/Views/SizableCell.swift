@@ -1,5 +1,6 @@
 import Flex
 import Lists
+import UIKit
 
 class SizableCell: ListCell {
   private let backgroundView: UIView

@@ -1,5 +1,6 @@
 import Flex
 import Lists
+import UIKit
 
 class LoadingCell: ListCell {
   private let activityIndicator: CircleActivityIndicatorView

@@ -1,6 +1,7 @@
 import Flex
 import Lists
 import NSMUIKit
+import UIKit
 
 struct CommentCellStyle {
   var name: LabelStyle
