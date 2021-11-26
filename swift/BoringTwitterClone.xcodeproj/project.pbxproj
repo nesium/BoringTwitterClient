@@ -3,264 +3,148 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C78151422F403C2002D4134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78151322F403C2002D4134 /* AppDelegate.swift */; };
-		2C78151622F403C2002D4134 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78151522F403C2002D4134 /* PostsViewController.swift */; };
-		2C78151B22F403C3002D4134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C78151A22F403C3002D4134 /* Assets.xcassets */; };
-		2C78151E22F403C3002D4134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C78151C22F403C3002D4134 /* LaunchScreen.storyboard */; };
-		2C78152922F403C3002D4134 /* BoringTwitterCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78152822F403C3002D4134 /* BoringTwitterCloneTests.swift */; };
-		2CCA63F122F49F67009668A3 /* types.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA63F022F49F67009668A3 /* types.pb.swift */; };
-		2CCA63F722F49FB1009668A3 /* CommonErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA63F322F49FB1009668A3 /* CommonErrors.swift */; };
-		2CCA63F822F49FB1009668A3 /* BoringError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA63F422F49FB1009668A3 /* BoringError.swift */; };
-		2CCA63FA22F49FB1009668A3 /* Data+Rust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA63F622F49FB1009668A3 /* Data+Rust.swift */; };
-		2CCA63FF22F4A118009668A3 /* libboring_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA63FE22F4A118009668A3 /* libboring_core.a */; };
-		2CCA640122F4A5B6009668A3 /* String+Rust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA640022F4A5B6009668A3 /* String+Rust.swift */; };
-		2CCA640322F4A707009668A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCA640222F4A707009668A3 /* libsqlite3.tbd */; };
-		2CCA643E22F568F1009668A3 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA643D22F568F1009668A3 /* Types.swift */; };
-		2CCA644022F56A49009668A3 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA643F22F56A49009668A3 /* Environment.swift */; };
-		2CCA644222F56FA1009668A3 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA644122F56FA1009668A3 /* PostCell.swift */; };
-		2CCA644422F57139009668A3 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA644322F57139009668A3 /* Label.swift */; };
-		2CCA644722F57FBE009668A3 /* UIEdgeInsets+Boring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA644622F57FBE009668A3 /* UIEdgeInsets+Boring.swift */; };
-		2CCA644A22F58C5D009668A3 /* FFI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA644922F58C5D009668A3 /* FFI.swift */; };
-		2CCA644C22F58CB8009668A3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA644B22F58CB8009668A3 /* Theme.swift */; };
-		2CCA645122F58EC6009668A3 /* SizableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA645022F58EC6009668A3 /* SizableCell.swift */; };
-		2CCA645322F58F84009668A3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA645222F58F84009668A3 /* Coordinator.swift */; };
-		2CCA645522F591AB009668A3 /* ObservableType+Boring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA645422F591AB009668A3 /* ObservableType+Boring.swift */; };
-		2CCA645722F592A5009668A3 /* AuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA645622F592A5009668A3 /* AuthorView.swift */; };
-		2CCA645922F5947A009668A3 /* Flex+Boring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA645822F5947A009668A3 /* Flex+Boring.swift */; };
-		2CCA645C22F59B04009668A3 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA645B22F59B04009668A3 /* PostDetailViewController.swift */; };
-		2CCA645E22F5AE86009668A3 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA645D22F5AE86009668A3 /* CommentCell.swift */; };
-		2CCA646022F69BD5009668A3 /* CircleActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA645F22F69BD5009668A3 /* CircleActivityIndicator.swift */; };
-		2CCA646222F6A756009668A3 /* SectionData+Boring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA646122F6A756009668A3 /* SectionData+Boring.swift */; };
-		2CCA646522F6A8E3009668A3 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCA646422F6A8E3009668A3 /* LoadingCell.swift */; };
-		2CDE3C212345FCEA003A5266 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 2CDE3C202345FCEA003A5266 /* SwiftProtobuf */; };
-		2CDE3C242345FD79003A5266 /* Bindings in Frameworks */ = {isa = PBXBuildFile; productRef = 2CDE3C232345FD79003A5266 /* Bindings */; };
-		2CDE3C272345FDA2003A5266 /* Uniflow in Frameworks */ = {isa = PBXBuildFile; productRef = 2CDE3C262345FDA2003A5266 /* Uniflow */; };
-		2CDE3C31234604FA003A5266 /* Lists in Frameworks */ = {isa = PBXBuildFile; productRef = 2CDE3C30234604FA003A5266 /* Lists */; };
+		2C81ACCB2750D8B000BAFF62 /* BoringTwitterCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C81ACCA2750D8B000BAFF62 /* BoringTwitterCloneApp.swift */; };
+		2C81ACCF2750D8B100BAFF62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C81ACCE2750D8B100BAFF62 /* Assets.xcassets */; };
+		2C81ACD22750D8B100BAFF62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C81ACD12750D8B100BAFF62 /* Preview Assets.xcassets */; };
+		2C81ACE72750D93500BAFF62 /* CommonErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C81ACD92750D93500BAFF62 /* CommonErrors.swift */; };
+		2C81ACE82750D93500BAFF62 /* String+Rust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C81ACDA2750D93500BAFF62 /* String+Rust.swift */; };
+		2C81ACE92750D93500BAFF62 /* BoringError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C81ACDB2750D93500BAFF62 /* BoringError.swift */; };
+		2C81ACEA2750D93500BAFF62 /* Data+Rust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C81ACDC2750D93500BAFF62 /* Data+Rust.swift */; };
+		2C81ACEB2750D93500BAFF62 /* types.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C81ACDE2750D93500BAFF62 /* types.pb.swift */; };
+		2C81ACEC2750D93500BAFF62 /* Boring.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C81ACE02750D93500BAFF62 /* Boring.xcframework */; };
+		2C81ACED2750D93500BAFF62 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C81ACE22750D93500BAFF62 /* PostListView.swift */; };
+		2C81ACEE2750D93500BAFF62 /* FFI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C81ACE32750D93500BAFF62 /* FFI.swift */; };
+		2C81ACEF2750D93500BAFF62 /* UIFont+Boring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C81ACE52750D93500BAFF62 /* UIFont+Boring.swift */; };
+		2C81ACF32750D98900BAFF62 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C81ACF22750D97400BAFF62 /* libsqlite3.tbd */; };
+		2C81ACF62750D9BB00BAFF62 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 2C81ACF52750D9BB00BAFF62 /* SwiftProtobuf */; };
+		2C81ACF82750DDFF00BAFF62 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C81ACF72750DDFF00BAFF62 /* PostDetailView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2C78152522F403C3002D4134 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2C78150822F403C2002D4134 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2C78150F22F403C2002D4134;
-			remoteInfo = BoringTwitterClone;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		2C78151022F403C2002D4134 /* BoringTwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoringTwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C78151322F403C2002D4134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C78151522F403C2002D4134 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
-		2C78151A22F403C3002D4134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C78151D22F403C3002D4134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2C78151F22F403C3002D4134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C78152422F403C3002D4134 /* BoringTwitterCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoringTwitterCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C78152822F403C3002D4134 /* BoringTwitterCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoringTwitterCloneTests.swift; sourceTree = "<group>"; };
-		2C78152A22F403C3002D4134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CCA63F022F49F67009668A3 /* types.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = types.pb.swift; sourceTree = "<group>"; };
-		2CCA63F322F49FB1009668A3 /* CommonErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonErrors.swift; sourceTree = "<group>"; };
-		2CCA63F422F49FB1009668A3 /* BoringError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoringError.swift; sourceTree = "<group>"; };
-		2CCA63F622F49FB1009668A3 /* Data+Rust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Rust.swift"; sourceTree = "<group>"; };
-		2CCA63FD22F4A063009668A3 /* Boring-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boring-Bridging-Header.h"; sourceTree = "<group>"; };
-		2CCA63FE22F4A118009668A3 /* libboring_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboring_core.a; path = BoringTwitterClone/Rust/libs/libboring_core.a; sourceTree = "<group>"; };
-		2CCA640022F4A5B6009668A3 /* String+Rust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Rust.swift"; sourceTree = "<group>"; };
-		2CCA640222F4A707009668A3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		2CCA643D22F568F1009668A3 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
-		2CCA643F22F56A49009668A3 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
-		2CCA644122F56FA1009668A3 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
-		2CCA644322F57139009668A3 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
-		2CCA644622F57FBE009668A3 /* UIEdgeInsets+Boring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Boring.swift"; sourceTree = "<group>"; };
-		2CCA644922F58C5D009668A3 /* FFI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFI.swift; sourceTree = "<group>"; };
-		2CCA644B22F58CB8009668A3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		2CCA645022F58EC6009668A3 /* SizableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizableCell.swift; sourceTree = "<group>"; };
-		2CCA645222F58F84009668A3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		2CCA645422F591AB009668A3 /* ObservableType+Boring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+Boring.swift"; sourceTree = "<group>"; };
-		2CCA645622F592A5009668A3 /* AuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorView.swift; sourceTree = "<group>"; };
-		2CCA645822F5947A009668A3 /* Flex+Boring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flex+Boring.swift"; sourceTree = "<group>"; };
-		2CCA645B22F59B04009668A3 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
-		2CCA645D22F5AE86009668A3 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
-		2CCA645F22F69BD5009668A3 /* CircleActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleActivityIndicator.swift; sourceTree = "<group>"; };
-		2CCA646122F6A756009668A3 /* SectionData+Boring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SectionData+Boring.swift"; sourceTree = "<group>"; };
-		2CCA646422F6A8E3009668A3 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		2C81ACC72750D8B000BAFF62 /* BoringTwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoringTwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C81ACCA2750D8B000BAFF62 /* BoringTwitterCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoringTwitterCloneApp.swift; sourceTree = "<group>"; };
+		2C81ACCE2750D8B100BAFF62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C81ACD12750D8B100BAFF62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C81ACD92750D93500BAFF62 /* CommonErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonErrors.swift; sourceTree = "<group>"; };
+		2C81ACDA2750D93500BAFF62 /* String+Rust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Rust.swift"; sourceTree = "<group>"; };
+		2C81ACDB2750D93500BAFF62 /* BoringError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoringError.swift; sourceTree = "<group>"; };
+		2C81ACDC2750D93500BAFF62 /* Data+Rust.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Rust.swift"; sourceTree = "<group>"; };
+		2C81ACDE2750D93500BAFF62 /* types.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = types.pb.swift; sourceTree = "<group>"; };
+		2C81ACE02750D93500BAFF62 /* Boring.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Boring.xcframework; sourceTree = "<group>"; };
+		2C81ACE22750D93500BAFF62 /* PostListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		2C81ACE32750D93500BAFF62 /* FFI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFI.swift; sourceTree = "<group>"; };
+		2C81ACE52750D93500BAFF62 /* UIFont+Boring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Boring.swift"; sourceTree = "<group>"; };
+		2C81ACF22750D97400BAFF62 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2C81ACF72750DDFF00BAFF62 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C78150D22F403C2002D4134 /* Frameworks */ = {
+		2C81ACC42750D8B000BAFF62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CDE3C31234604FA003A5266 /* Lists in Frameworks */,
-				2CCA640322F4A707009668A3 /* libsqlite3.tbd in Frameworks */,
-				2CDE3C272345FDA2003A5266 /* Uniflow in Frameworks */,
-				2CCA63FF22F4A118009668A3 /* libboring_core.a in Frameworks */,
-				2CDE3C242345FD79003A5266 /* Bindings in Frameworks */,
-				2CDE3C212345FCEA003A5266 /* SwiftProtobuf in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C78152122F403C3002D4134 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2C81ACF32750D98900BAFF62 /* libsqlite3.tbd in Frameworks */,
+				2C81ACEC2750D93500BAFF62 /* Boring.xcframework in Frameworks */,
+				2C81ACF62750D9BB00BAFF62 /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C78150722F403C2002D4134 = {
+		2C81ACBE2750D8B000BAFF62 = {
 			isa = PBXGroup;
 			children = (
-				2C78151222F403C2002D4134 /* BoringTwitterClone */,
-				2C78152722F403C3002D4134 /* BoringTwitterCloneTests */,
-				2C78151122F403C2002D4134 /* Products */,
-				4EE707F08CF1A5A5C96B9847 /* Frameworks */,
+				2C81ACC92750D8B000BAFF62 /* BoringTwitterClone */,
+				2C81ACC82750D8B000BAFF62 /* Products */,
+				2C81ACF12750D97400BAFF62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		2C78151122F403C2002D4134 /* Products */ = {
+		2C81ACC82750D8B000BAFF62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C78151022F403C2002D4134 /* BoringTwitterClone.app */,
-				2C78152422F403C3002D4134 /* BoringTwitterCloneTests.xctest */,
+				2C81ACC72750D8B000BAFF62 /* BoringTwitterClone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C78151222F403C2002D4134 /* BoringTwitterClone */ = {
+		2C81ACC92750D8B000BAFF62 /* BoringTwitterClone */ = {
 			isa = PBXGroup;
 			children = (
-				2CCA63FD22F4A063009668A3 /* Boring-Bridging-Header.h */,
-				2C78151F22F403C3002D4134 /* Info.plist */,
-				2C78151A22F403C3002D4134 /* Assets.xcassets */,
-				2C78151C22F403C3002D4134 /* LaunchScreen.storyboard */,
-				2CCA63F222F49FB1009668A3 /* FFI */,
-				2CCA63EF22F49F67009668A3 /* Proto */,
-				2CCA63EE22F49F67009668A3 /* Sources */,
+				2C81ACD82750D93500BAFF62 /* FFI */,
+				2C81ACDD2750D93500BAFF62 /* Proto */,
+				2C81ACDF2750D93500BAFF62 /* Rust */,
+				2C81ACE12750D93500BAFF62 /* Sources */,
+				2C81ACCA2750D8B000BAFF62 /* BoringTwitterCloneApp.swift */,
+				2C81ACCE2750D8B100BAFF62 /* Assets.xcassets */,
+				2C81ACD02750D8B100BAFF62 /* Preview Content */,
 			);
 			path = BoringTwitterClone;
 			sourceTree = "<group>";
 		};
-		2C78152722F403C3002D4134 /* BoringTwitterCloneTests */ = {
+		2C81ACD02750D8B100BAFF62 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				2C78152822F403C3002D4134 /* BoringTwitterCloneTests.swift */,
-				2C78152A22F403C3002D4134 /* Info.plist */,
+				2C81ACD12750D8B100BAFF62 /* Preview Assets.xcassets */,
 			);
-			path = BoringTwitterCloneTests;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2CCA63EE22F49F67009668A3 /* Sources */ = {
+		2C81ACD82750D93500BAFF62 /* FFI */ = {
 			isa = PBXGroup;
 			children = (
-				2C78151322F403C2002D4134 /* AppDelegate.swift */,
-				2CCA644822F58C4F009668A3 /* Environment */,
-				2CCA644522F57FB1009668A3 /* Extensions */,
-				2CCA644D22F58E76009668A3 /* Flows */,
-				2CCA644F22F58E8E009668A3 /* Util */,
-				2CCA646322F6A8BE009668A3 /* Views */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		2CCA63EF22F49F67009668A3 /* Proto */ = {
-			isa = PBXGroup;
-			children = (
-				2CCA63F022F49F67009668A3 /* types.pb.swift */,
-			);
-			path = Proto;
-			sourceTree = "<group>";
-		};
-		2CCA63F222F49FB1009668A3 /* FFI */ = {
-			isa = PBXGroup;
-			children = (
-				2CCA640022F4A5B6009668A3 /* String+Rust.swift */,
-				2CCA63F322F49FB1009668A3 /* CommonErrors.swift */,
-				2CCA63F422F49FB1009668A3 /* BoringError.swift */,
-				2CCA63F622F49FB1009668A3 /* Data+Rust.swift */,
+				2C81ACD92750D93500BAFF62 /* CommonErrors.swift */,
+				2C81ACDA2750D93500BAFF62 /* String+Rust.swift */,
+				2C81ACDB2750D93500BAFF62 /* BoringError.swift */,
+				2C81ACDC2750D93500BAFF62 /* Data+Rust.swift */,
 			);
 			path = FFI;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
-		2CCA644522F57FB1009668A3 /* Extensions */ = {
+		2C81ACDD2750D93500BAFF62 /* Proto */ = {
 			isa = PBXGroup;
 			children = (
-				2CCA645822F5947A009668A3 /* Flex+Boring.swift */,
-				2CCA645422F591AB009668A3 /* ObservableType+Boring.swift */,
-				2CCA646122F6A756009668A3 /* SectionData+Boring.swift */,
-				2CCA644622F57FBE009668A3 /* UIEdgeInsets+Boring.swift */,
+				2C81ACDE2750D93500BAFF62 /* types.pb.swift */,
+			);
+			path = Proto;
+			sourceTree = SOURCE_ROOT;
+		};
+		2C81ACDF2750D93500BAFF62 /* Rust */ = {
+			isa = PBXGroup;
+			children = (
+				2C81ACE02750D93500BAFF62 /* Boring.xcframework */,
+			);
+			path = Rust;
+			sourceTree = SOURCE_ROOT;
+		};
+		2C81ACE12750D93500BAFF62 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2C81ACE32750D93500BAFF62 /* FFI.swift */,
+				2C81ACF72750DDFF00BAFF62 /* PostDetailView.swift */,
+				2C81ACE22750D93500BAFF62 /* PostListView.swift */,
+				2C81ACE42750D93500BAFF62 /* Extensions */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		2C81ACE42750D93500BAFF62 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2C81ACE52750D93500BAFF62 /* UIFont+Boring.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		2CCA644822F58C4F009668A3 /* Environment */ = {
+		2C81ACF12750D97400BAFF62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2CCA643F22F56A49009668A3 /* Environment.swift */,
-				2CCA644922F58C5D009668A3 /* FFI.swift */,
-				2CCA644B22F58CB8009668A3 /* Theme.swift */,
-			);
-			path = Environment;
-			sourceTree = "<group>";
-		};
-		2CCA644D22F58E76009668A3 /* Flows */ = {
-			isa = PBXGroup;
-			children = (
-				2CCA645222F58F84009668A3 /* Coordinator.swift */,
-				2CCA645A22F59AF4009668A3 /* PostDetail */,
-				2CCA644E22F58E7E009668A3 /* Posts */,
-			);
-			path = Flows;
-			sourceTree = "<group>";
-		};
-		2CCA644E22F58E7E009668A3 /* Posts */ = {
-			isa = PBXGroup;
-			children = (
-				2C78151522F403C2002D4134 /* PostsViewController.swift */,
-				2CCA644122F56FA1009668A3 /* PostCell.swift */,
-			);
-			path = Posts;
-			sourceTree = "<group>";
-		};
-		2CCA644F22F58E8E009668A3 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				2CCA643D22F568F1009668A3 /* Types.swift */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		2CCA645A22F59AF4009668A3 /* PostDetail */ = {
-			isa = PBXGroup;
-			children = (
-				2CCA645B22F59B04009668A3 /* PostDetailViewController.swift */,
-				2CCA645D22F5AE86009668A3 /* CommentCell.swift */,
-			);
-			path = PostDetail;
-			sourceTree = "<group>";
-		};
-		2CCA646322F6A8BE009668A3 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				2CCA645622F592A5009668A3 /* AuthorView.swift */,
-				2CCA645F22F69BD5009668A3 /* CircleActivityIndicator.swift */,
-				2CCA644322F57139009668A3 /* Label.swift */,
-				2CCA646422F6A8E3009668A3 /* LoadingCell.swift */,
-				2CCA645022F58EC6009668A3 /* SizableCell.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		4EE707F08CF1A5A5C96B9847 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2CCA640222F4A707009668A3 /* libsqlite3.tbd */,
-				2CCA63FE22F4A118009668A3 /* libboring_core.a */,
+				2C81ACF22750D97400BAFF62 /* libsqlite3.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -268,13 +152,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C78150F22F403C2002D4134 /* BoringTwitterClone */ = {
+		2C81ACC62750D8B000BAFF62 /* BoringTwitterClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C78152D22F403C3002D4134 /* Build configuration list for PBXNativeTarget "BoringTwitterClone" */;
+			buildConfigurationList = 2C81ACD52750D8B100BAFF62 /* Build configuration list for PBXNativeTarget "BoringTwitterClone" */;
 			buildPhases = (
-				2C78150C22F403C2002D4134 /* Sources */,
-				2C78150D22F403C2002D4134 /* Frameworks */,
-				2C78150E22F403C2002D4134 /* Resources */,
+				2C81ACC32750D8B000BAFF62 /* Sources */,
+				2C81ACC42750D8B000BAFF62 /* Frameworks */,
+				2C81ACC52750D8B000BAFF62 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -282,191 +166,88 @@
 			);
 			name = BoringTwitterClone;
 			packageProductDependencies = (
-				2CDE3C202345FCEA003A5266 /* SwiftProtobuf */,
-				2CDE3C232345FD79003A5266 /* Bindings */,
-				2CDE3C262345FDA2003A5266 /* Uniflow */,
-				2CDE3C30234604FA003A5266 /* Lists */,
+				2C81ACF52750D9BB00BAFF62 /* SwiftProtobuf */,
 			);
 			productName = BoringTwitterClone;
-			productReference = 2C78151022F403C2002D4134 /* BoringTwitterClone.app */;
+			productReference = 2C81ACC72750D8B000BAFF62 /* BoringTwitterClone.app */;
 			productType = "com.apple.product-type.application";
-		};
-		2C78152322F403C3002D4134 /* BoringTwitterCloneTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2C78153022F403C3002D4134 /* Build configuration list for PBXNativeTarget "BoringTwitterCloneTests" */;
-			buildPhases = (
-				A8BF6A13CB552B5E5EF79F78 /* [CP] Check Pods Manifest.lock */,
-				2C78152022F403C3002D4134 /* Sources */,
-				2C78152122F403C3002D4134 /* Frameworks */,
-				2C78152222F403C3002D4134 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2C78152622F403C3002D4134 /* PBXTargetDependency */,
-			);
-			name = BoringTwitterCloneTests;
-			productName = BoringTwitterCloneTests;
-			productReference = 2C78152422F403C3002D4134 /* BoringTwitterCloneTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2C78150822F403C2002D4134 /* Project object */ = {
+		2C81ACBF2750D8B000BAFF62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "Marc Bauer";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					2C78150F22F403C2002D4134 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
-					2C78152322F403C3002D4134 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 2C78150F22F403C2002D4134;
+					2C81ACC62750D8B000BAFF62 = {
+						CreatedOnToolsVersion = 13.2;
 					};
 				};
 			};
-			buildConfigurationList = 2C78150B22F403C2002D4134 /* Build configuration list for PBXProject "BoringTwitterClone" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 2C81ACC22750D8B000BAFF62 /* Build configuration list for PBXProject "BoringTwitterClone" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 2C78150722F403C2002D4134;
+			mainGroup = 2C81ACBE2750D8B000BAFF62;
 			packageReferences = (
-				2CDE3C1F2345FCEA003A5266 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
-				2CDE3C222345FD79003A5266 /* XCRemoteSwiftPackageReference "Bindings" */,
-				2CDE3C252345FDA2003A5266 /* XCRemoteSwiftPackageReference "Uniflow" */,
-				2CDE3C2F234604FA003A5266 /* XCRemoteSwiftPackageReference "Lists" */,
+				2C81ACF42750D9BB00BAFF62 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
 			);
-			productRefGroup = 2C78151122F403C2002D4134 /* Products */;
+			productRefGroup = 2C81ACC82750D8B000BAFF62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C78150F22F403C2002D4134 /* BoringTwitterClone */,
-				2C78152322F403C3002D4134 /* BoringTwitterCloneTests */,
+				2C81ACC62750D8B000BAFF62 /* BoringTwitterClone */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2C78150E22F403C2002D4134 /* Resources */ = {
+		2C81ACC52750D8B000BAFF62 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C78151E22F403C3002D4134 /* LaunchScreen.storyboard in Resources */,
-				2C78151B22F403C3002D4134 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C78152222F403C3002D4134 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2C81ACD22750D8B100BAFF62 /* Preview Assets.xcassets in Resources */,
+				2C81ACCF2750D8B100BAFF62 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		A8BF6A13CB552B5E5EF79F78 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BoringTwitterCloneTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		2C78150C22F403C2002D4134 /* Sources */ = {
+		2C81ACC32750D8B000BAFF62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CCA645322F58F84009668A3 /* Coordinator.swift in Sources */,
-				2CCA645522F591AB009668A3 /* ObservableType+Boring.swift in Sources */,
-				2CCA645122F58EC6009668A3 /* SizableCell.swift in Sources */,
-				2C78151622F403C2002D4134 /* PostsViewController.swift in Sources */,
-				2C78151422F403C2002D4134 /* AppDelegate.swift in Sources */,
-				2CCA63F822F49FB1009668A3 /* BoringError.swift in Sources */,
-				2CCA645922F5947A009668A3 /* Flex+Boring.swift in Sources */,
-				2CCA643E22F568F1009668A3 /* Types.swift in Sources */,
-				2CCA645C22F59B04009668A3 /* PostDetailViewController.swift in Sources */,
-				2CCA644422F57139009668A3 /* Label.swift in Sources */,
-				2CCA644722F57FBE009668A3 /* UIEdgeInsets+Boring.swift in Sources */,
-				2CCA645722F592A5009668A3 /* AuthorView.swift in Sources */,
-				2CCA644022F56A49009668A3 /* Environment.swift in Sources */,
-				2CCA640122F4A5B6009668A3 /* String+Rust.swift in Sources */,
-				2CCA63F122F49F67009668A3 /* types.pb.swift in Sources */,
-				2CCA63FA22F49FB1009668A3 /* Data+Rust.swift in Sources */,
-				2CCA646222F6A756009668A3 /* SectionData+Boring.swift in Sources */,
-				2CCA646022F69BD5009668A3 /* CircleActivityIndicator.swift in Sources */,
-				2CCA646522F6A8E3009668A3 /* LoadingCell.swift in Sources */,
-				2CCA63F722F49FB1009668A3 /* CommonErrors.swift in Sources */,
-				2CCA644222F56FA1009668A3 /* PostCell.swift in Sources */,
-				2CCA644A22F58C5D009668A3 /* FFI.swift in Sources */,
-				2CCA644C22F58CB8009668A3 /* Theme.swift in Sources */,
-				2CCA645E22F5AE86009668A3 /* CommentCell.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C78152022F403C3002D4134 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C78152922F403C3002D4134 /* BoringTwitterCloneTests.swift in Sources */,
+				2C81ACE92750D93500BAFF62 /* BoringError.swift in Sources */,
+				2C81ACF82750DDFF00BAFF62 /* PostDetailView.swift in Sources */,
+				2C81ACE82750D93500BAFF62 /* String+Rust.swift in Sources */,
+				2C81ACED2750D93500BAFF62 /* PostListView.swift in Sources */,
+				2C81ACEF2750D93500BAFF62 /* UIFont+Boring.swift in Sources */,
+				2C81ACEB2750D93500BAFF62 /* types.pb.swift in Sources */,
+				2C81ACE72750D93500BAFF62 /* CommonErrors.swift in Sources */,
+				2C81ACCB2750D8B000BAFF62 /* BoringTwitterCloneApp.swift in Sources */,
+				2C81ACEA2750D93500BAFF62 /* Data+Rust.swift in Sources */,
+				2C81ACEE2750D93500BAFF62 /* FFI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2C78152622F403C3002D4134 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2C78150F22F403C2002D4134 /* BoringTwitterClone */;
-			targetProxy = 2C78152522F403C3002D4134 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2C78151C22F403C3002D4134 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C78151D22F403C3002D4134 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		2C78152B22F403C3002D4134 /* Debug */ = {
+		2C81ACD32750D8B100BAFF62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -486,13 +267,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -511,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -521,13 +302,13 @@
 			};
 			name = Debug;
 		};
-		2C78152C22F403C3002D4134 /* Release */ = {
+		2C81ACD42750D8B100BAFF62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -547,13 +328,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -566,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -576,130 +357,81 @@
 			};
 			name = Release;
 		};
-		2C78152E22F403C3002D4134 /* Debug */ = {
+		2C81ACD62750D8B100BAFF62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BoringTwitterClone/Preview Content\"";
 				DEVELOPMENT_TEAM = EMF866L2YQ;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/BoringTwitterClone/rust/include",
-				);
-				INFOPLIST_FILE = BoringTwitterClone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/BoringTwitterClone/rust/libs",
-					"$(PROJECT_DIR)/BoringTwitterClone/Rust/libs",
-				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nesium.BoringTwitterClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/BoringTwitterClone/Boring-Bridging-Header.h";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2C78152F22F403C3002D4134 /* Release */ = {
+		2C81ACD72750D8B100BAFF62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BoringTwitterClone/Preview Content\"";
 				DEVELOPMENT_TEAM = EMF866L2YQ;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/BoringTwitterClone/rust/include",
-				);
-				INFOPLIST_FILE = BoringTwitterClone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/BoringTwitterClone/rust/libs",
-					"$(PROJECT_DIR)/BoringTwitterClone/Rust/libs",
-				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nesium.BoringTwitterClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/BoringTwitterClone/Boring-Bridging-Header.h";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		2C78153122F403C3002D4134 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EMF866L2YQ;
-				INFOPLIST_FILE = BoringTwitterCloneTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nesium.BoringTwitterCloneTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoringTwitterClone.app/BoringTwitterClone";
-			};
-			name = Debug;
-		};
-		2C78153222F403C3002D4134 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EMF866L2YQ;
-				INFOPLIST_FILE = BoringTwitterCloneTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nesium.BoringTwitterCloneTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoringTwitterClone.app/BoringTwitterClone";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C78150B22F403C2002D4134 /* Build configuration list for PBXProject "BoringTwitterClone" */ = {
+		2C81ACC22750D8B000BAFF62 /* Build configuration list for PBXProject "BoringTwitterClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C78152B22F403C3002D4134 /* Debug */,
-				2C78152C22F403C3002D4134 /* Release */,
+				2C81ACD32750D8B100BAFF62 /* Debug */,
+				2C81ACD42750D8B100BAFF62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C78152D22F403C3002D4134 /* Build configuration list for PBXNativeTarget "BoringTwitterClone" */ = {
+		2C81ACD52750D8B100BAFF62 /* Build configuration list for PBXNativeTarget "BoringTwitterClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C78152E22F403C3002D4134 /* Debug */,
-				2C78152F22F403C3002D4134 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2C78153022F403C3002D4134 /* Build configuration list for PBXNativeTarget "BoringTwitterCloneTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C78153122F403C3002D4134 /* Debug */,
-				2C78153222F403C3002D4134 /* Release */,
+				2C81ACD62750D8B100BAFF62 /* Debug */,
+				2C81ACD72750D8B100BAFF62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -707,33 +439,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2CDE3C1F2345FCEA003A5266 /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+		2C81ACF42750D9BB00BAFF62 /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-protobuf.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.7.0;
-			};
-		};
-		2CDE3C222345FD79003A5266 /* XCRemoteSwiftPackageReference "Bindings" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nesium/Bindings.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		2CDE3C252345FDA2003A5266 /* XCRemoteSwiftPackageReference "Uniflow" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nesium/Uniflow.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		2CDE3C2F234604FA003A5266 /* XCRemoteSwiftPackageReference "Lists" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nesium/Lists.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
@@ -742,27 +450,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2CDE3C202345FCEA003A5266 /* SwiftProtobuf */ = {
+		2C81ACF52750D9BB00BAFF62 /* SwiftProtobuf */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2CDE3C1F2345FCEA003A5266 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			package = 2C81ACF42750D9BB00BAFF62 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
 			productName = SwiftProtobuf;
-		};
-		2CDE3C232345FD79003A5266 /* Bindings */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2CDE3C222345FD79003A5266 /* XCRemoteSwiftPackageReference "Bindings" */;
-			productName = Bindings;
-		};
-		2CDE3C262345FDA2003A5266 /* Uniflow */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2CDE3C252345FDA2003A5266 /* XCRemoteSwiftPackageReference "Uniflow" */;
-			productName = Uniflow;
-		};
-		2CDE3C30234604FA003A5266 /* Lists */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2CDE3C2F234604FA003A5266 /* XCRemoteSwiftPackageReference "Lists" */;
-			productName = Lists;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 2C78150822F403C2002D4134 /* Project object */;
+	rootObject = 2C81ACBF2750D8B000BAFF62 /* Project object */;
 }

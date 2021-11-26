@@ -1,0 +1,6 @@
+framework module Boring {
+  umbrella header "Boring.h"
+
+  export *
+  module * { export * }
+}

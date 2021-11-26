@@ -52,7 +52,7 @@ impl Context {
       .map(|comments: Vec<types::Comment>| types::CommentsResponse {
         comments: comments
           .into_iter()
-          .filter(|comment| comment.post_id == post_id)
+          //.filter(|comment| comment.post_id == post_id)
           .collect(),
       })
       .map_err(|err| err.into())

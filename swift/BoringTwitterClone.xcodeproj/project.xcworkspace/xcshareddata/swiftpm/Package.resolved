@@ -2,102 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "Bindings",
-        "repositoryURL": "https://github.com/nesium/Bindings.git",
-        "state": {
-          "branch": null,
-          "revision": "2553f9c5968d4b4fe57dc1035d4029ea957f1755",
-          "version": "1.0.0"
-        }
-      },
-      {
-        "package": "Flex",
-        "repositoryURL": "https://github.com/nesium/Flex.git",
-        "state": {
-          "branch": null,
-          "revision": "ca442d3aa9265b9b1329aa95505e0be8a5c6fcec",
-          "version": "0.9.0"
-        }
-      },
-      {
-        "package": "IGListKit",
-        "repositoryURL": "https://github.com/nesium/IGListKit.git",
-        "state": {
-          "branch": null,
-          "revision": "196a354105be77f41e804544f8ca49410b05a460",
-          "version": "3.4.1"
-        }
-      },
-      {
-        "package": "Lists",
-        "repositoryURL": "https://github.com/nesium/Lists.git",
-        "state": {
-          "branch": null,
-          "revision": "68f6dfe0cdc49b0f059e5e91f4dc0b0143d0d4c0",
-          "version": "1.0.0"
-        }
-      },
-      {
-        "package": "NSMFoundation",
-        "repositoryURL": "https://github.com/nesium/NSMFoundation.git",
-        "state": {
-          "branch": null,
-          "revision": "b08769fc241a660825d9f29adf80571c02b2b15c",
-          "version": "1.0.0"
-        }
-      },
-      {
-        "package": "NSMUIKit",
-        "repositoryURL": "https://github.com/nesium/NSMUIKit.git",
-        "state": {
-          "branch": null,
-          "revision": "6e7ef236108951ebe1c266f67709615f56b31f34",
-          "version": "1.0.0"
-        }
-      },
-      {
-        "package": "RxSwift",
-        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
-        "state": {
-          "branch": null,
-          "revision": "b3e888b4972d9bc76495dd74d30a8c7fad4b9395",
-          "version": "5.0.1"
-        }
-      },
-      {
         "package": "SwiftProtobuf",
         "repositoryURL": "https://github.com/apple/swift-protobuf.git",
         "state": {
           "branch": null,
           "revision": "da75a93ac017534e0028e83c0e4fc4610d2acf48",
           "version": "1.7.0"
-        }
-      },
-      {
-        "package": "SnapshotTesting",
-        "repositoryURL": "https://github.com/pointfreeco/swift-snapshot-testing.git",
-        "state": {
-          "branch": null,
-          "revision": "35aac0fbc74cdb0848923d42ddbdd3400c938f72",
-          "version": "1.6.0"
-        }
-      },
-      {
-        "package": "SwipeCellKit",
-        "repositoryURL": "https://github.com/nesium/SwipeCellKit.git",
-        "state": {
-          "branch": null,
-          "revision": "62755efe4f97b381c88679ba546f452e88cf9c6b",
-          "version": "1.9.2"
-        }
-      },
-      {
-        "package": "Uniflow",
-        "repositoryURL": "https://github.com/nesium/Uniflow.git",
-        "state": {
-          "branch": null,
-          "revision": "8fd7048565308c5ea7d702c3d8261b49d2c4f8f8",
-          "version": "1.0.0"
         }
       }
     ]
