@@ -6,7 +6,7 @@ edition = "2018"
 
 [dependencies]
 boring_store = { path = "../boring_store" }
-prost = "0.5"
+prost = "0.6"
 libc = "0.2"
 ffi-support = "0.3"
 lazy_static = "1.3"
